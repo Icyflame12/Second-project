@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    position: absolute;
+    top: 15px;
+    text-align: right;
+    width: 100%;
+
+}
+header a{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+header a:hover{
+    color: yellow;
+}
+
+main{
+  background-image: url("./IMAGES/coffee_rorozoa_3_04.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+
+
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding-top: 250px;
+  padding-right: 50px;
+}
+
+main h1{
+
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    mix-blend-mode: luminosity;
+    
+}
+.box{
+    background-color: black;
+    padding: 0;
+}
+.box h1{
+    text-align: center;
+    color: white;
+  
+ 
+}
+
+.container{
+    background-color: rgb(41, 38, 38);
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30PX;
+}
+
+.one,.two,.three{
+    width: 500px;
+    height: 750x;
+    background-color: rgb(248, 248, 248);
+    border: 10px solid rgb(41, 38, 38);
+    padding-left: 100px;
+
+    text-align: center;
+    padding: 5px;
+}
+
+.footer1{
+    background-color: rgb(41, 38, 38);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-right: 700px;
+    color: white;
+
+
+}
+
+.iconpart{
+
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    
+}
+
+.footer2{
+    background-color: lightslategray;
+    font-style: u
+}
+  
+.copyright{
+    display: flex;
+    justify-content: space-between ;
+  padding-right: 15px;
+
+}
+
+.subpart1.h3{
+    font-weight: 400;
+}
